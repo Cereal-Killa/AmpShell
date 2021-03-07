@@ -35,7 +35,6 @@ field.
 * Bugfix: Saved window location was never used
 * Bugfix: Restore XP (and 32-bit Windows) compatibility
 * Bugfix: Fixed Portable Mode
-* Bugfix: Fixed AutoConfig on 64-bit Windows
 
 1.2.8 (30 May 2020)
 * Games can have notes attached to them
