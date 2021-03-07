@@ -31,6 +31,9 @@ namespace AmpShell.Legacy
         [STAThread]
         private static void Main(string[] args)
         {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+
             UserDataAccessor.LoadUserSettingsAndRunAutoConfig();
 
             if (UserDataAccessor.UserData.GamesUseDOSBox && StringExt.IsNullOrWhiteSpace(UserDataAccessor.UserData.DBPath) && IsWindows98())
