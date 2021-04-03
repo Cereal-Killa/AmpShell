@@ -630,7 +630,7 @@ namespace AmpShell.Legacy.Views
             // GameAdditionalCommandsLabel
             //
             this.GameAdditionalCommandsLabel.AutoSize = true;
-            this.GameAdditionalCommandsLabel.Image = global::AmpShell.Properties.Resources.cmd;
+            this.GameAdditionalCommandsLabel.Image = global::AmpShell.Legacy.Properties.Resources.cmd;
             this.GameAdditionalCommandsLabel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.GameAdditionalCommandsLabel.Location = new System.Drawing.Point(8, 68);
             this.GameAdditionalCommandsLabel.Name = "GameAdditionalCommandsLabel";
