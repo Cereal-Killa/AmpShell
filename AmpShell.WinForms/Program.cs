@@ -32,7 +32,10 @@ namespace AmpShell.WinForms
         [STAThread]
         private static void Main(string[] args)
         {
-            Application.EnableVisualStyles();
+            if (IsWindows98() == false)
+            {
+                Application.EnableVisualStyles();
+            }
             Application.SetCompatibleTextRenderingDefault(false);
 
             UserDataAccessor.LoadUserSettingsAndRunAutoConfig();
